@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hilarious-weather/static/css/main.660694a9.css",
+    "main.js": "/hilarious-weather/static/js/main.1828b86e.js",
+    "index.html": "/hilarious-weather/index.html",
+    "main.660694a9.css.map": "/hilarious-weather/static/css/main.660694a9.css.map",
+    "main.1828b86e.js.map": "/hilarious-weather/static/js/main.1828b86e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.660694a9.css",
+    "static/js/main.1828b86e.js"
+  ]
+}
