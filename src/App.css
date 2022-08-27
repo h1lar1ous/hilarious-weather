@@ -2,37 +2,81 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 610px) {
+  .top-buttons {
+    flex-direction: column;
+  }
+
+  .top-buttons button {
+    margin-top: 10px;
+  }
+
+  .about-info {
+    flex-direction: column;
+  }
+
+  .about-info p {
+    margin-left: 10px;
+    margin-bottom: 20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 570px) {
+  input::placeholder {
+    font-size: 14px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 530px) {
+  .units-buttons {
+    margin-left: 20px;
+  }
+
+  .search-button,
+  .location-button {
+    width: 35px;
+    height: 35px;
+  }
+
+  input::placeholder {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:500px) {
+  .inputs-wrapper {
+    flex-direction: column;
+  }
+
+  .units-buttons {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 15px;
+  }
+
+  .info-buttons {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+}
+
+@media (max-width: 770px) {
+  .main {
+    margin-top: 0 !important;
+  }
+  
+  .date-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 465px) {
+  .main {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
